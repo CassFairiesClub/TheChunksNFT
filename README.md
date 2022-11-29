@@ -1,6 +1,7 @@
 # Provably Fair Rare @TheChunksNFT airdrop
 Every 10 trades of original offerfiles accepted via Dexie.space (0.1 xch offerfiles created with the TheChunksNFT wallet) a random winner is picked among those 10 trades and will be airdropped a rare Chunk (top 1K)
-to be completed : why -> dexie offers being botted, 168 rare Chunks already botted/accepted, 830 rare Chunks left, 2 rare Chunks reserved for giveaway to outstanding members of the Phunk community
+
+To be completed : why -> dexie offers being botted, 168 rare Chunks already botted/accepted, 830 rare Chunks left, 2 rare Chunks reserved for giveaway to outstanding members of the Phunk community
 
 One draw will be made every single day until all of the rare Chunks left in the wallet have been drop (830 rare chunks left.
 

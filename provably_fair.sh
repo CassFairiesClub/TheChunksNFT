@@ -28,8 +28,9 @@ while [ "$check" != "true" ]; do
 	for i in $(seq 1 $pagecount)
 	do
 		curl -s 'https://api.dexie.space/v1/offers?offered=col16gshnku52v7sjnxucwxx9k7aw73643qht9uhzw50g99qafqz7ptskr3vnp&status=4&sort=date_completed&compact=true&page_size=100&page='$i'' > $block/json_dexie/$i.json
+		cat $block/json_dexie/$i.json | jq >> $block/alltrades.txt	
 	done
-	cat $block/json_dexie/*.json | jq > $block/alltrades.txt
+	
 # check if the $count did not change while curling the data
 	if [ 1 = "$(cat $block/alltrades.txt| jq '.count' | uniq | wc -l)" ]
 	then
@@ -128,9 +129,11 @@ then
 else
 	cat $block/puzzle_hash_$block.txt | tail -n $valid_draws > $block/valid_draws.txt
 	# 'Chunk' the total eligible trades into sample of 10
+	m=0
 	for i in $(seq 1 $number_of_draws)
 	do
-		cat $block/valid_draws.txt | head -n $(($i*10)) | tail -n 10 > $block/draw_$i.txt
+		cat $block/valid_draws.txt | head -n $(($i*10)) | tail -n 10 > $block/draw_$(($number_of_draws-$m)).txt
+		((m++))
 	done
 	mkdir $block/10_trade_samples
 	mv $block/draw*.txt $block/10_trade_samples/
@@ -207,6 +210,7 @@ do
 	xch_address=$(curl -s https://api.mintgarden.io/nfts/$encoded_winner | jq '.events | .[] | select(.event_index == 2) | .address.encoded_id' | cut -d '"' -f2)
 	echo "draw $i,$index,$winner,$xch_address,$index_nft,$nft_draw," >> $block/raw_draw.txt
 	echo "$i,$index,$xch_address,$index_nft,$nft_draw" | tee -a $block/$block.log
+	echo "$xch_address,$nft_draw" >> $block/rare_transfer_list_$block.txt
 	echo "$nft_draw" >> $block/deleted_nftids_$block.txt
 # delete from rare_nftids list the rare chunks won of the current draw
 done
