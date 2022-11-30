@@ -21,11 +21,7 @@ The rare_nftids.txt stores the current rare chunks left in the pool to be airdro
 The next_block_remainder.txt stores the "leftover trades (<10)" that will be included in the next draw
 
 ## How to run the script and verify yourself a past draw
-1. Make sure you first have the latest commits of the following files
-- next_block_remainder.txt
-- rare_nftids.txt
-
-2. Pass in the block number as the first parameter, or provide also a second block as parameter (only used for the initial draw : 2864212).
+1. Pass in the block number as the first parameter, or provide also a second block as parameter (only used for the initial draw : 2864212).
 
 Example (in the case of the original rare_nftids.txt with 830 total) :
 This simulates the original draw if it were made at block 2883290 (around 12:00am UTC the 27th of November 2022)
@@ -36,7 +32,6 @@ This simulates the original draw if it were made at block 2883290 (around 12:00a
 This will give the following output :
 
 ```
-Scanning from block 2864212 to 2883291
 ----------------------------------------------------------------
 Using block_header_hash from block 2883291
 block_header_hash from 2883291     : 9ec0c12cf614586f6dc257e1c17491405e1f90d4f693fc70b521a8f0489753e1
@@ -57,7 +52,6 @@ The following puzzle hash will be included in the next draw
 ff6757b768eec83e5345458b7b242113155e73fca7769053c94371924bb04d63
 81c403374b0f3c79329ce6771779f56bc12c47dabb42bfe066d2c7c34255d9ea
 ----------------------------------------------------------------
-Enough trades (more than 10) => Creating files for each 10 consecutive trades
 ----------------------------------------------------------------
 block_header_hash from 2883291    : 9ec0c12cf614586f6dc257e1c17491405e1f90d4f693fc70b521a8f0489753e1
 Random digits from 2883291        : 90126145866257117491405190469370521804897531
@@ -65,18 +59,15 @@ Number of rares left to be won    : 830
 Sample rejection number           : 9961
 ----------------------------------------------------------------
 Verifying if the current block header hash provides enough random numbers...
-Current max valid (sample rejected) random numbers = 41
-Not enough data in the current block header hash, using next block header hash
+Current max valid (sample rejected) random numbers = 40
 Added block header hash           : bf226130fbd2788a184d8425b2279d246e753c82bb7ac18aa87766b546d87a32
 Added block header digits         : 22613027881848425227924675382718877665468732
 ----------------------------------------------------------------
 Verifying if the current block header hash provides enough random numbers...
-Current max valid (sample rejected) random numbers = 82
+Current max valid (sample rejected) random numbers = 80
 ----------------------------------------------------------------
 Total single digits random numbers : 88
-9-0-1-2-6-1-4-5-8-6-6-2-5-7-1-1-7-4-9-1-4-0-5-1-9-0-4-6-9-3-7-0-5-2-1-8-0-4-8-9-7-5-3-1-2-2-6-1-3-0-2-7-8-8-1-8-4-8-4-2-5-2-2-7-9-2-4-6-7-5-3-8-2-7-1-8-8-7-7-6-6-5-4-6-8-7-3-2-
-Total multiple digits random numbers : 82
-713-127-432-125-336-629-437-57-363-816-448-82-732-478-345-90-22-765-11-576-732-520-211-245-747-470-544-298-241-386-413-522-239-521-145-579-490-748-676-624-62-602-124-321-473-538-279-299-412-519-715-189-185-693-126-103-33-248-620-303-455-117-808-526-114-69-403-508-802-229-549-228-578-477-297-196-15-737-489-538-234-433-
+Total multiple digits random numbers : 80
 ----------------------------------------------------------------
 draw,random 1,xch_address,random 2,Rare Chunk Airdropped
 1,10,xch1f8q36eempg0xucs3v3vf5sd9vmwq8u9cjgd2g9x23jnp89smeneqvyu7s9,713,nft1n9vnzgg5ca63lrdc2ygzarxtw536zggh5nnj07d863ucjglamajsmhtgse
@@ -99,31 +90,31 @@ draw,random 1,xch_address,random 2,Rare Chunk Airdropped
 18,5,xch1xnzhrndmzcfke8a6wtku5vua58ctfc8vp0m3av7qcsc3kgd3g4sq09jtvj,765,nft1hxe5mrzapc6tkmhnmzxdpjukr44dp5xgnq4admqdt9hrrt93m0cqep99r7
 19,10,xch1mx7tpvk9gv6gdlhk25t7lwgrjqr3h94hxghr0pa50r4v35rrc7zqkcsx06,11,nft1hew0r3av5ux7aqnzr7qcz6fucwu2ttnxfkhg4scx3n8q72aqxqds2swx0y
 20,2,xch1svf3lc4zmvx2z8vuj6yx4v69gzpnm9ekg63drmqp7pqmaap4z3cs7h0t69,576,nft153tje6q3mggccke2dkzjtvpg2vl8693up9e7zzwzd4jwa0h384mqq03e2g
-21,5,xch1s482qnzvre25c6stcjehvjl5x3a4dj03h6k29cgzrwv7kk2f6yqsjlk365,732,nft1xl6czp5ny7m3kljunv4qlevrfzswsyy8c0m4tn3rgc7k5s2g0rvqj20jgx
-22,1,xch1dmtyamp8cew2n84khxpw64wzzhl5jet3azzgpg9e4gctu37jpaassyxs7a,520,nft1ja0kg6zs7xjxws3ejfd6uqejvdtdwe9xxuv35v9m2r0hkvknj8csree3lp
-23,6,xch1mlna89x32pr84w7p2txkwedzujpj32whnw8e4ltzp2fkr3ff8w9s560nc5,211,nft1wafn3arxfvg54ucycg6wf8mhlkusjw3lrwu6w353a27ajen9lavsjacxv0
-24,2,xch1am6xldqevs4hphqfr2xseuvtjmmq36d8qjsfzpyqjura2hxmruysuv0xvt,245,nft1s6pjktee8zcmpg6n2wtjrc77lrgfgac8euhk5mwyhavenlyz0xnq0cfmdv
-25,10,xch1cqd7afxwpe72vwnxdlv7ud6u0mj73xme5m8przdwxqaa5djvn5xqeq26e4,747,nft1atted99vkyty0sdtprmp8j9maqkq7nh00umknue359h2kr03k39qs94gr3
-26,1,xch137ce44uvkg5dx7szu38unldm6uffapcaytdsg7xf63zxv44kxc0q8jg9uq,470,nft1fanla5kjsemdmlxp8fahjt5nz7dnkqj3wzfx9j0k9x0j8ctdsxassjdhp8
-27,5,xch1zmv8djafvne2us9qedmnaqgn6fszejr0sk5qqpzz6al60zxun2zs4r90ra,544,nft1lrcydh8nt38nnamkppz4mnt59lr8g9eacplph77lpsdxsw6qrd7qgllym7
-28,7,xch18w4n9np35ec5qtxxwx5lhvc3x3yn0xqq78qc2k3dmelaemv70lsq07l2qn,298,nft1yggxq6h79unrmqtzguc23qfhfry3tv8ja8tx0cxcnr3zhkxalqkqvnkf8j
-29,10,xch106eyyvcgwsrndu3jqztv8srk9hsu9w7fs8aaxdxe5pfkgk22stpq3njmhv,241,nft1wfxxfgmnc5yy6yt6m38u70nwtdngcsqh22222jge479e82y8z8ss8jjj9c
-30,4,xch1ct40729f36289d43shv40hp2206gqw5x8mgg6s5wxa46p9e87zwszq5vx8,386,nft1m0glyxt5pkult9q00fffcucp2kclmueffpqzgs20fqncp65td0ds9k5u0t
-31,8,xch1kvq4nny85vjhpm07ftxr8k6gw7cfhf0ksc8qa7ju9cth343kyeusf7gkqf,413,nft1urpzh6w8e3vrtjr9xd27q2javsdcq2nwpzqg023hjmdsm2x2mkls78636m
-32,1,xch1m4s8660qrnqa2lkks2e8fmj8nctesvzlk8yvahjf3v63l762flssexst6w,522,nft1r6dk7zqznnk9w79096kjhs9jt9rgjetvj4s5gm8z342n6zh38z5qjpvrn7
-33,6,xch1s8l8ackmatvrw6pxq6e86wyyxq0hlpthv9egvlrpd0ycm9h496jqth98ja,239,nft1d56x95jynywrls8vh7z5ngy35gk5dmp7dmhqq6jzg2kerhmtw7ws4e777u
-34,3,xch13edxp5zekann788fw2tzh35ne66u47cw7h9dwj56gnpwnffp6j5s7l80rr,521,nft1q6d0m3yrj85efsueg37vj4u6ut0lvqalnjl3nutqq5w7aezndqns8mdvtx
-35,2,xch125eenr4r32avr80a7sn7hz53t8dajuk3pxr59j7kkk56u777s8xqgkv3qv,145,nft14ewet4tnq240p3km05zdxhgxrdf4luz8wkkfpx3qtlxnpy6ny43qqgw2ja
-36,9,xch153fpad69qklpnllf3ne4he62czqvc2acfq53zr8qmed50yymsn0sfe34tt,579,nft1tpvg9rxatjna6gvykasruq5sldtav5mzgdqcsdgpfmty4ryl4s4s37hwnn
-37,1,xch198070fvhdm3s4994atzezp2vfrvudspdf3caea9ydglsjya3p7fq6uc7ph,490,nft1qzeln88mq7lm96dnhdl76u2cr0ak8pqrgxvnwkswt34dmvljf5tq7j93mq
-38,5,xch1yd0k4v95xjtf7s8ua9xpt88qal4yllz84whdcfcszgrzdu95lrhq20lcyr,748,nft19dvum8vr5h6jgy5qqqukngank5xrqf5es4v0dr8khva34rcg9w5skugm7g
-39,9,xch1d8ry9hsuwfzcjy94gevjexdkm0cwz8c8p4g3fxxklsrchzgykf9qwryffl,676,nft1avmxqe8hkguwegrg08ytln6uqx78952w6v9u7vlgjk7s28lypresl5ynah
-40,10,xch16jv3ar670e57efnhcfkp2z6qfwgrkjud6tggec92sw57erts96sqpnz0fw,624,nft1qc2r2p5075xmgnz70ma0vdtglv52mc6tp76fca6v6phmlgwlunwsejnxnn
-41,8,xch169mpxceymppr83j2rdjjv3tpxactu550sq2jns24ckhv936s3nxsxfsvuu,62,nft1tr8s59mqmctvkzv5vaznwylnjlkypjxm30kk4vh5rzmkvmzg02cswxa3h2
-42,6,xch16rcvs6mhjkxnudy6uclr8nm03n4w843ud9vjg4k5uzgdlkeslynqzfsawp,602,nft1fg7glk3aqwvk7ddw3854muulccml9lrdvdum6drdhrrsq4ktpw3s9hr9t6
-43,4,xch1suy98y3ty8dkanq4p7wg3hp8gr2eh602fkhnunz5psaj0ael7rhqcnp7n3,124,nft162p9e0h2agqtkrsldvnwrev9xqh25vryqufugfkcqdy9aju95urqrakl5k
-44,2,xch1e9qrrdegxupzz7d9f4fycy3a6jplvdhl4k6swcxra9eh8n2mek7sydvzyf,321,nft1kxte4p7alxazrf5de4kmfxtmhqnwcusswy564qqcktyhe3mcu4sq7sxasw
-45,3,xch18lnult7wdlxv5w8qpglgwkz5ayu42mnuy8dhqmxak2n6xj0glraql7q5th,473,nft1jqlk9q83053d5sfghc6gcwfhwzx04nltctypchw9ykhzg3hhhkfsyecmsa
-
+21,5,xch1s482qnzvre25c6stcjehvjl5x3a4dj03h6k29cgzrwv7kk2f6yqsjlk365,520,nft1ja0kg6zs7xjxws3ejfd6uqejvdtdwe9xxuv35v9m2r0hkvknj8csree3lp
+22,1,xch1dmtyamp8cew2n84khxpw64wzzhl5jet3azzgpg9e4gctu37jpaassyxs7a,211,nft1wafn3arxfvg54ucycg6wf8mhlkusjw3lrwu6w353a27ajen9lavsjacxv0
+23,6,xch1mlna89x32pr84w7p2txkwedzujpj32whnw8e4ltzp2fkr3ff8w9s560nc5,245,nft1s6pjktee8zcmpg6n2wtjrc77lrgfgac8euhk5mwyhavenlyz0xnq0cfmdv
+24,2,xch1am6xldqevs4hphqfr2xseuvtjmmq36d8qjsfzpyqjura2hxmruysuv0xvt,747,nft1atted99vkyty0sdtprmp8j9maqkq7nh00umknue359h2kr03k39qs94gr3
+25,10,xch1cqd7afxwpe72vwnxdlv7ud6u0mj73xme5m8przdwxqaa5djvn5xqeq26e4,470,nft1fanla5kjsemdmlxp8fahjt5nz7dnkqj3wzfx9j0k9x0j8ctdsxassjdhp8
+26,1,xch137ce44uvkg5dx7szu38unldm6uffapcaytdsg7xf63zxv44kxc0q8jg9uq,544,nft1lrcydh8nt38nnamkppz4mnt59lr8g9eacplph77lpsdxsw6qrd7qgllym7
+27,5,xch1zmv8djafvne2us9qedmnaqgn6fszejr0sk5qqpzz6al60zxun2zs4r90ra,298,nft1yggxq6h79unrmqtzguc23qfhfry3tv8ja8tx0cxcnr3zhkxalqkqvnkf8j
+28,7,xch18w4n9np35ec5qtxxwx5lhvc3x3yn0xqq78qc2k3dmelaemv70lsq07l2qn,241,nft1wfxxfgmnc5yy6yt6m38u70nwtdngcsqh22222jge479e82y8z8ss8jjj9c
+29,10,xch106eyyvcgwsrndu3jqztv8srk9hsu9w7fs8aaxdxe5pfkgk22stpq3njmhv,386,nft1m0glyxt5pkult9q00fffcucp2kclmueffpqzgs20fqncp65td0ds9k5u0t
+30,4,xch1ct40729f36289d43shv40hp2206gqw5x8mgg6s5wxa46p9e87zwszq5vx8,413,nft1urpzh6w8e3vrtjr9xd27q2javsdcq2nwpzqg023hjmdsm2x2mkls78636m
+31,8,xch1kvq4nny85vjhpm07ftxr8k6gw7cfhf0ksc8qa7ju9cth343kyeusf7gkqf,522,nft1r6dk7zqznnk9w79096kjhs9jt9rgjetvj4s5gm8z342n6zh38z5qjpvrn7
+32,1,xch1m4s8660qrnqa2lkks2e8fmj8nctesvzlk8yvahjf3v63l762flssexst6w,239,nft1d56x95jynywrls8vh7z5ngy35gk5dmp7dmhqq6jzg2kerhmtw7ws4e777u
+33,6,xch1s8l8ackmatvrw6pxq6e86wyyxq0hlpthv9egvlrpd0ycm9h496jqth98ja,521,nft1q6d0m3yrj85efsueg37vj4u6ut0lvqalnjl3nutqq5w7aezndqns8mdvtx
+34,3,xch13edxp5zekann788fw2tzh35ne66u47cw7h9dwj56gnpwnffp6j5s7l80rr,145,nft14ewet4tnq240p3km05zdxhgxrdf4luz8wkkfpx3qtlxnpy6ny43qqgw2ja
+35,2,xch125eenr4r32avr80a7sn7hz53t8dajuk3pxr59j7kkk56u777s8xqgkv3qv,579,nft1tpvg9rxatjna6gvykasruq5sldtav5mzgdqcsdgpfmty4ryl4s4s37hwnn
+36,9,xch153fpad69qklpnllf3ne4he62czqvc2acfq53zr8qmed50yymsn0sfe34tt,490,nft1qzeln88mq7lm96dnhdl76u2cr0ak8pqrgxvnwkswt34dmvljf5tq7j93mq
+37,1,xch198070fvhdm3s4994atzezp2vfrvudspdf3caea9ydglsjya3p7fq6uc7ph,748,nft19dvum8vr5h6jgy5qqqukngank5xrqf5es4v0dr8khva34rcg9w5skugm7g
+38,5,xch1yd0k4v95xjtf7s8ua9xpt88qal4yllz84whdcfcszgrzdu95lrhq20lcyr,676,nft1avmxqe8hkguwegrg08ytln6uqx78952w6v9u7vlgjk7s28lypresl5ynah
+39,9,xch1d8ry9hsuwfzcjy94gevjexdkm0cwz8c8p4g3fxxklsrchzgykf9qwryffl,624,nft1qc2r2p5075xmgnz70ma0vdtglv52mc6tp76fca6v6phmlgwlunwsejnxnn
+40,10,xch16jv3ar670e57efnhcfkp2z6qfwgrkjud6tggec92sw57erts96sqpnz0fw,62,nft1tr8s59mqmctvkzv5vaznwylnjlkypjxm30kk4vh5rzmkvmzg02cswxa3h2
+41,8,xch169mpxceymppr83j2rdjjv3tpxactu550sq2jns24ckhv936s3nxsxfsvuu,602,nft1fg7glk3aqwvk7ddw3854muulccml9lrdvdum6drdhrrsq4ktpw3s9hr9t6
+42,6,xch16rcvs6mhjkxnudy6uclr8nm03n4w843ud9vjg4k5uzgdlkeslynqzfsawp,124,nft162p9e0h2agqtkrsldvnwrev9xqh25vryqufugfkcqdy9aju95urqrakl5k
+43,4,xch1suy98y3ty8dkanq4p7wg3hp8gr2eh602fkhnunz5psaj0ael7rhqcnp7n3,321,nft1kxte4p7alxazrf5de4kmfxtmhqnwcusswy564qqcktyhe3mcu4sq7sxasw
+44,2,xch1e9qrrdegxupzz7d9f4fycy3a6jplvdhl4k6swcxra9eh8n2mek7sydvzyf,473,nft1jqlk9q83053d5sfghc6gcwfhwzx04nltctypchw9ykhzg3hhhkfsyecmsa
+45,3,xch18lnult7wdlxv5w8qpglgwkz5ayu42mnuy8dhqmxak2n6xj0glraql7q5th,538,nft1dexp22nklttzas8e2t3t9eyf0u4nddjhywuyg0plkeyf5p3pzf4q3f6e4p
+----------------------------------------------------------------
 
 ```

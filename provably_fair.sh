@@ -56,9 +56,12 @@ while [ $i -lt "$(($(echo $digits_hash | wc -c)-3))" ]; do
 	fi
 	((i++))
 done
-tri_random_number=$(cat $block/tri_random_list_$block.txt | wc -l)
+
+tri_random_number=$(awk '!_[$0]++' $block/tri_random_list_$block.txt | wc -l)
 }
 
+wget https://raw.githubusercontent.com/CassFairiesClub/TheChunksNFT/main/next_block_remainder.txt -O next_block_remainder.txt
+wget https://raw.githubusercontent.com/CassFairiesClub/TheChunksNFT/main/rare_nftids.txt -O rare_nftids.txt
 
 current_block_data=`curl -s --insecure --cert ~/.chia/mainnet/config/ssl/full_node/private_full_node.crt --key ~/.chia/mainnet/config/ssl/full_node/private_full_node.key -d '{"height": '$block'}' -H "Content-Type: application/json" -X POST https://localhost:8555/get_block_record_by_height`
 hash=$(echo $current_block_data  | jq '.block_record.header_hash' | cut -c 4-67)
@@ -180,6 +183,8 @@ while [ "$tri_random_number" -lt "$number_of_draws" ]; do
 		((k++))
 	fi
 done
+#sort only uniques random tri digits numbers
+awk '!_[$0]++' $block/tri_random_list_$block.txt >> $block/sorted_tri_random_list_$block.txt
 
 echo "----------------------------------------------------------------" | tee -a $block/$block.log
 echo "Total single digits random numbers : $(cat $block/single_random_list_$block.txt | wc -l)" | tee -a $block/$block.log
@@ -188,8 +193,8 @@ do
 	echo -n "$i-"
 done 
 echo ""
-echo "Total multiple digits random numbers : $(cat $block/tri_random_list_$block.txt | wc -l)" | tee -a $block/$block.log
-for i in $(cat $block/tri_random_list_$block.txt)
+echo "Total multiple digits random numbers : $(cat $block/sorted_tri_random_list_$block.txt | wc -l)" | tee -a $block/$block.log
+for i in $(cat $block/sorted_tri_random_list_$block.txt)
 do
 	echo -n "$i-"
 done 
@@ -204,7 +209,7 @@ for i in $(seq 1 $number_of_draws)
 do
 	index=$((1+$(cat $block/single_random_list_$block.txt | head -n$i |tail -n1)))
 	winner=$(cat $block/10_trade_samples/draw_$i.txt | head -n$index |tail -n1)
-	index_nft=$(cat $block/tri_random_list_$block.txt | head -n$i |tail -n1)
+	index_nft=$(cat $block/sorted_tri_random_list_$block.txt | head -n$i |tail -n1)
 	nft_draw=$(cat rare_nftids.txt | head -n$index_nft |tail -n1)
 	encoded_winner=$(cdv encode -p nft $winner)
 	xch_address=$(curl -s https://api.mintgarden.io/nfts/$encoded_winner | jq '.events | .[] | select(.event_index == 2) | .address.encoded_id' | cut -d '"' -f2)
