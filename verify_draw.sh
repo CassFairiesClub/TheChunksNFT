@@ -1,18 +1,21 @@
 #!/bin/bash
 # Cass@TheChunksNFT provably fair rare Chunks drop
 # Every ten trades samples a random winner is picked and airdropped a free rare Chunk
-if [ $# -eq 1 ]
+if [ $1 -eq 2883291 ]
   then
+    # Scan from the cutoff block 2883291
+    block=$1
+    previousblock=2864212
+    echo "Scanning from block $previousblock to $block (24h)"
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/next_block_remainder.txt -O next_block_remainder.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/rare_nftids.txt -O rare_nftids.txt
+  else
     # Scan the last 4608 blocks (24h)
     block=$1
     previousblock=$(($block-4608))
-    echo "Scanning from block $previousblock to $block (24h)"
-  else
-  	# Only for the first draw : scan from block 2864212 as annonced on the following tweet : https://twitter.com/CassFairiesClub/status/1595549236623548418?s=20&t=YgwsOwpH4TVHnl-ZkH36Jw"
-  	# Otherwise scan the last 4608 blocks (24h)
-  	block=$1
-  	previousblock=$2
-  	echo "Scanning from block $previousblock to $block"
+    echo "Scanning from block $previousblock to $block"
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/next_block_remainder_$block.txt -O next_block_remainder.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/rare_nftids_$block.txt -O rare_nftids.txt
 fi
 
 # -------------------------------------------------------------------------------------
@@ -228,16 +231,4 @@ for i in $(cat $block/deleted_nftids_$block.txt)
 do
 	sed -i "/$i/d" rare_nftids.txt
 done
-
-echo "----------------------------------------------------------------" | tee -a $block/$block.log
-git add .
-echo "git commit $block"
-git commit -m "$block commit"
-echo "git push $block"
-git push origin master
-echo "----------------------------------------------------------------" | tee -a $block/$block.log
-
-
-
-
 
