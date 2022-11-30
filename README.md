@@ -24,7 +24,7 @@ The next_block_remainder.txt stores the "leftover trades (<10)" that will be inc
 1. Pass in the block number as the first parameter, or provide also a second block as parameter (only used for the initial draw : 2864212).
 
 Example (in the case of the original rare_nftids.txt with 830 total) :
-This simulates the original draw if it were made at block 2883290 (around 12:00am UTC the 27th of November 2022)
+This simulates the original draw if it were made at block 2883291 (around 12:00am UTC the 27th of November 2022)
 ```
   ./provably_fair.sh 2883291 2864212
 ```
