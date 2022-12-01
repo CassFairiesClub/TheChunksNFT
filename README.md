@@ -55,6 +55,7 @@ The following puzzle hash will be included in the next draw
 ff6757b768eec83e5345458b7b242113155e73fca7769053c94371924bb04d63
 81c403374b0f3c79329ce6771779f56bc12c47dabb42bfe066d2c7c34255d9ea
 ----------------------------------------------------------------
+Enough trades (more than 10) => Creating files for each 10 consecutive trades
 ----------------------------------------------------------------
 block_header_hash from 2883291    : 9ec0c12cf614586f6dc257e1c17491405e1f90d4f693fc70b521a8f0489753e1
 Random digits from 2883291        : 90126145866257117491405190469370521804897531
@@ -63,6 +64,7 @@ Sample rejection number           : 9961
 ----------------------------------------------------------------
 Verifying if the current block header hash provides enough random numbers...
 Current max valid (sample rejected) random numbers = 40
+Not enough data in the current block header hash, using next block header hash
 Added block header hash           : bf226130fbd2788a184d8425b2279d246e753c82bb7ac18aa87766b546d87a32
 Added block header digits         : 22613027881848425227924675382718877665468732
 ----------------------------------------------------------------
@@ -70,7 +72,9 @@ Verifying if the current block header hash provides enough random numbers...
 Current max valid (sample rejected) random numbers = 80
 ----------------------------------------------------------------
 Total single digits random numbers : 88
+9-0-1-2-6-1-4-5-8-6-6-2-5-7-1-1-7-4-9-1-4-0-5-1-9-0-4-6-9-3-7-0-5-2-1-8-0-4-8-9-7-5-3-1-2-2-6-1-3-0-2-7-8-8-1-8-4-8-4-2-5-2-2-7-9-2-4-6-7-5-3-8-2-7-1-8-8-7-7-6-6-5-4-6-8-7-3-2-
 Total multiple digits random numbers : 80
+713-127-432-125-336-629-437-57-363-816-448-82-732-478-345-90-22-765-11-576-520-211-245-747-470-544-298-241-386-413-522-239-521-145-579-490-748-676-624-62-602-124-321-473-538-279-299-412-519-715-189-185-693-126-103-33-248-620-303-455-117-808-526-114-69-403-508-802-229-549-228-578-477-297-196-15-737-489-234-433-
 ----------------------------------------------------------------
 draw,random 1,xch_address,random 2,Rare Chunk Airdropped
 1,10,xch1f8q36eempg0xucs3v3vf5sd9vmwq8u9cjgd2g9x23jnp89smeneqvyu7s9,713,nft1n9vnzgg5ca63lrdc2ygzarxtw536zggh5nnj07d863ucjglamajsmhtgse
@@ -118,6 +122,6 @@ draw,random 1,xch_address,random 2,Rare Chunk Airdropped
 43,4,xch1suy98y3ty8dkanq4p7wg3hp8gr2eh602fkhnunz5psaj0ael7rhqcnp7n3,321,nft1kxte4p7alxazrf5de4kmfxtmhqnwcusswy564qqcktyhe3mcu4sq7sxasw
 44,2,xch1e9qrrdegxupzz7d9f4fycy3a6jplvdhl4k6swcxra9eh8n2mek7sydvzyf,473,nft1jqlk9q83053d5sfghc6gcwfhwzx04nltctypchw9ykhzg3hhhkfsyecmsa
 45,3,xch18lnult7wdlxv5w8qpglgwkz5ayu42mnuy8dhqmxak2n6xj0glraql7q5th,538,nft1dexp22nklttzas8e2t3t9eyf0u4nddjhywuyg0plkeyf5p3pzf4q3f6e4p
-----------------------------------------------------------------
+
 
 ```
