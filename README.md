@@ -10,7 +10,7 @@ It uses the block_header_hash of that block to generate random numbers and rando
 These block Ids are already known in advance of a draw, no one can predict a future block_header_hash, thus making the draw **provably fair**.
 The list of future blocks used will be pushed to the repo before the first draw.
 
-You need a chia **full node** to make rpc calls scanning the blockchain
+You need a chia **full node** to make rpc calls scanning the blockchain.
 You need to be in the chiadevtools venv to encode to bech32m the winning addresses.
 
 This tool is only available for linux OS.
@@ -19,8 +19,8 @@ This tool is only available for linux OS.
 1. Download the verify.sh script from the github repository and make it executable
 
 ```
-  wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/verify_draw.sh
-  chmod +x verify_draw.sh
+wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/verify_draw.sh
+chmod +x verify_draw.sh
 ```
 
 2. Pass in the block number as parameter.
@@ -29,7 +29,7 @@ Example (in the case of the original rare_nftids.txt with 830 total) :
 This simulates the original draw if it were made at block 2883291 (around 12:00am UTC the 27th of November 2022)
 
 ```
-  ./verify_draw.sh 2883291
+./verify_draw.sh 2883291
 ```
 
 This will give the following output :
