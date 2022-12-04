@@ -6,13 +6,13 @@ if [ $# -eq 1 ]
     # Scan the last 32256 blocks (7d)
     block=$1
     previousblock=$(($block-32256))
-    echo "Scanning from block $previousblock to $block (24h)"
+    echo "Scanning from block $previousblock to $block (7d)"
   else
   	# Only for the first draw : scan from block 2920610 as annonced on the following tweet : https://twitter.com/TheChunksNFT/status/1599518122436067328?s=20&t=qclIXcEUAnOg5cyk3suuLw
   	# Otherwise scan the last 32256 blocks (7d)
   	block=$1
   	previousblock=$2
-  	echo "Scanning from block $previousblock to $block"
+  	echo "Scanning from cutoff block $previousblock to 1st $block"
 fi
 
 # -------------------------------------------------------------------------------------
