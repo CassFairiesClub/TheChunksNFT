@@ -3,13 +3,13 @@
 # Every ten trades samples a random winner is picked and airdropped a free rare Chunk
 if [ $# -eq 1 ]
   then
-    # Scan the last 4608 blocks (24h)
+    # Scan the last 32256 blocks (7d)
     block=$1
-    previousblock=$(($block-4608))
+    previousblock=$(($block-32256))
     echo "Scanning from block $previousblock to $block (24h)"
   else
-  	# Only for the first draw : scan from block 2864212 as annonced on the following tweet : https://twitter.com/CassFairiesClub/status/1595549236623548418?s=20&t=YgwsOwpH4TVHnl-ZkH36Jw"
-  	# Otherwise scan the last 4608 blocks (24h)
+  	# Only for the first draw : scan from block 2920610 as annonced on the following tweet : https://twitter.com/TheChunksNFT/status/1599518122436067328?s=20&t=qclIXcEUAnOg5cyk3suuLw
+  	# Otherwise scan the last 32256 blocks (7d)
   	block=$1
   	previousblock=$2
   	echo "Scanning from block $previousblock to $block"

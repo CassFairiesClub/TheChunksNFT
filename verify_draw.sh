@@ -1,18 +1,18 @@
 #!/bin/bash
 # Cass@TheChunksNFT provably fair rare Chunks drop
 # Every ten trades samples a random winner is picked and airdropped a free rare Chunk
-if [ $1 -eq 2883291 ]
+if [ $1 -eq 2920610 ]
   then
-    # Scan from the cutoff block 2883291
+    # Scan from the cutoff block 2864212 till first draw 2920610
     block=$1
     previousblock=2864212
-    echo "Scanning from block $previousblock to $block (24h)"
+    echo "Scanning from block $previousblock to $block (cutoff block until 1st block)"
     wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/next_block_remainder.txt -O next_block_remainder.txt
     wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/rare_nftids.txt -O rare_nftids.txt
   else
-    # Scan the last 4608 blocks (24h)
+    # Scan the last 32256 blocks (7d)
     block=$1
-    previousblock=$(($block-4608))
+    previousblock=$(($block-32256))
     echo "Scanning from block $previousblock to $block"
     wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/next_block_remainder_$block.txt -O next_block_remainder.txt
     wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/rare_nftids_$block.txt -O rare_nftids.txt
