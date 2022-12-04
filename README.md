@@ -3,6 +3,10 @@ Every 10 trades of original offerfiles accepted via Dexie.space (0.1 xch offerfi
 
 One draw will be made every single day until all of the rare Chunks left in the wallet have been drop (830 rare chunks left.
 
+Initial Block chosen in advance by @_Ghost_Friend : https://twitter.com/TheChunksNFT/status/1599518122436067328?s=20&t=qclIXcEUAnOg5cyk3suuLw
+INIT_BLOCK=2920610
+
+
 ## Requirements
 The verify_draw.sh script requires a Block Id as parameter in order to scan for the last 4608 blocks (equivalent to 24h)
 It uses the block_header_hash of that block to generate random numbers and randomly select a winner on every 10 trades samples, and a rare Chunk to be airdropped to that winner
