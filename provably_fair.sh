@@ -235,7 +235,7 @@ git add .
 echo "git commit $block"
 git commit -m "$block commit"
 echo "git push $block"
-git push origin master
+git push origin main
 echo "----------------------------------------------------------------" | tee -a $block/$block.log
 
 
