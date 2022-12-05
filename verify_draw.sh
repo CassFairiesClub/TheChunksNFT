@@ -216,9 +216,10 @@ do
 	index_nft=$(cat $block/sorted_tri_random_list_$block.txt | head -n$i |tail -n1)
 	nft_draw=$(cat rare_nftids.txt | head -n$index_nft |tail -n1)
 	encoded_winner=$(cdv encode -p nft $winner)
+	winning_chunk=$(curl -s https://api.mintgarden.io/nfts/$encoded_winner | jq '.data.metadata_json.name')
 	xch_address=$(curl -s https://api.mintgarden.io/nfts/$encoded_winner | jq '.events | .[] | select(.event_index == 2) | .address.encoded_id' | cut -d '"' -f2)
-	echo "draw $i,$index,$winner,$xch_address,$index_nft,$nft_draw," >> $block/raw_draw.txt
-	echo "$i,$index,$xch_address,$index_nft,$nft_draw" | tee -a $block/$block.log
+	echo "draw $i,$index,$winning_chunk,$winner,$xch_address,$index_nft,$nft_draw," >> $block/raw_draw.txt
+	echo "$i,$index,$winning_chunk,$xch_address,$index_nft,$nft_draw" | tee -a $block/$block.log
 	echo "$xch_address,$nft_draw" >> $block/rare_transfer_list_$block.txt
 	echo "$nft_draw" >> $block/deleted_nftids_$block.txt
 # delete from rare_nftids list the rare chunks won of the current draw
