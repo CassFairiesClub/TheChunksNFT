@@ -8,7 +8,7 @@ INIT_BLOCK=2920610
 
 
 ## Requirements
-The verify_draw.sh script requires a Block Id as parameter in order to scan for the last 4608 blocks (equivalent to 24h)
+The verify_draw.sh script requires a Block Id as parameter in order to scan for the last 32256 blocks (equivalent to 7 days)
 It uses the block_header_hash of that block to generate random numbers and randomly select a winner on every 10 trades samples, and a rare Chunk to be airdropped to that winner
 
 These block Ids are already known in advance of a draw, no one can predict a future block_header_hash, thus making the draw **provably fair**.
