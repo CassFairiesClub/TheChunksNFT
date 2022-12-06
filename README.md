@@ -6,6 +6,9 @@ One draw will be made every single day until all of the rare Chunks left in the 
 Initial Block chosen in advance by @_Ghost_Friend : https://twitter.com/TheChunksNFT/status/1599518122436067328?s=20&t=qclIXcEUAnOg5cyk3suuLw
 INIT_BLOCK=2920610
 
+Initial cutoff block for 1st draw only annonced in the following tweet : https://twitter.com/CassFairiesClub/status/1595549236623548418?s=20&t=E4do1R6SOVk0zmadaNAV5g
+CUTOFF_BLOCK=2864212
+
 
 ## Requirements
 The verify_draw.sh script requires a Block Id as parameter in order to scan for the last 32256 blocks (equivalent to 7 days)
