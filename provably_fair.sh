@@ -230,6 +230,20 @@ do
 	sed -i "/$i/d" rare_nftids.txt
 done
 
+cat $block/raw_draw.txt | cut -d ',' -f4 > $block/win_puzzhash.txt
+cat $block/raw_draw.txt | cut -d ',' -f7 > $block/won_nft.txt
+for i in $(seq 1 $(cat $block/win_puzzhash.txt | wc -l))
+do
+nft_win=$(cdv encode -p nft $(cat $block/win_puzzhash.txt | head -n $i | tail -n1))
+wget http://assets.spacescan.io/xch/img/nft/th/$nft_win.webp
+nft_won=$(cat $block/won_nft.txt | head -n $i | tail -n1)
+wget http://assets.spacescan.io/xch/img/nft/th/$nft_won.webp
+montage  $nft_win.webp $nft_won.webp -tile 2x1 -geometry 100x100+0+0 tile_$i.png
+rm *.webp
+done
+montage  *.png -geometry +5+5 $block/$block.png
+rm *.png
+
 echo "----------------------------------------------------------------" | tee -a $block/$block.log
 git add .
 echo "git commit $block"
@@ -237,8 +251,3 @@ git commit -m "$block commit"
 echo "git push $block"
 git push origin main
 echo "----------------------------------------------------------------" | tee -a $block/$block.log
-
-
-
-
-
