@@ -22,7 +22,7 @@ check=false
 createdexielist() {
 # make sure we have a valid set of data, and a new tx did not occur while creating the list through the curl calls
 while [ "$check" != "true" ]; do
-	count=$(curl -s 'https://api.dexie.space/v1/offers?offered=col16gshnku52v7sjnxucwxx9k7aw73643qht9uhzw50g99qafqz7ptskr3vnp&status=4&sort=date_completed&compact=true&page_size=1' | jq '.count')
+	count=$(curl -s 'https://api.dexie.space/v1/offers?offered=col16gshnku52v7sjnxucwxx9k7aw73643qht9uhzw50g99qafqz7ptskr3vnp&status=4&sort=date_completed&compact=true&page_size=1' | jq -r '.count')
 	pagecount=$((($count/100)+1))
 
 	for i in $(seq 1 $pagecount)
