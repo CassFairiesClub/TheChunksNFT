@@ -1,0 +1,107 @@
+----------------------------------------------------------------
+Using block_header_hash from block 3114146
+block_header_hash from 3114146     : 235c012424f1bfdb0d29a9b525a96a2cc668ed67c6f0675392f8f5637b09285f
+Random digits from 3114146         : 2350124241029952596266867606753928563709285
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+9c499598473ac9af807ded3e1218a68cab33d522d76de43e3252c7c53a8a21ea
+fea6f2464b888e1ad59d5f064a696e8ccf06d0efe28c8237da51883ff22e3d90
+9c3fedca8754d50f251d75c5b5697b571d355fb81658b59e407c2e238ff9e7bf
+d7cb52b9b40231c3be02387e89b1e3e4e2aa7f16893cb5d1bed1504323c27074
+647d52b013496f1235448ab1f645b3be6dc7125f7935ba851f87d58506c87b3b
+edac483fd24c04078d9df0514ce143157ad6ab150f9690f451b2587e45ed010a
+de305e7b651cf0a7431ee8f1a583a624a526dfbe5a4e37ca43f069b4b77fa8d3
+b1fb6aa36c21d789ae270a881cf91dec926efa37d437060bd30ea2af1238e7be
+----------------------------------------------------------------
+Current draw eligible trades      : 551
+Remainder eligible trades         : 8
+Total eligible trades             : 559
+Number of draws                   : 55
+Remainder of current draw         : 9
+The following puzzle hash will be included in the next draw
+d07395a8427ee1f7104eddd363f886c19285a8ad02e1c3de47bcdd8144116409
+d4adce6157dbead6695ba07b7e2c571d21af5435bda4465881a55f4149e3cfb0
+a03b524e615d4837ecabd567052b69b8356aeba87bcf5c0a7a240e657b80b4f1
+8dd205cc8e39ac2fda0140cf15222081f98f19cdd922be66908c9089ca877611
+52d2de480b2a7e23fbdd580be11df086b1e0b18d78cb6ce36f6c55b0a9a72de0
+503b7429d35a71e8b12074f1a8c30fff82072b9260084a290b3d9d13fc3bfde7
+7de8f2e94df6dea75c6339a198a0b2f74a2042299814cff9bddac3be0db27426
+20d3cfcfe55252b5e8aa95d8bd82e166ded6fcd9df1ef500084d1d8b6fcfbfa0
+730e66ceb9b5942b1b502e449cf167c0c912997d1efd3234936d0db92840a1e3
+----------------------------------------------------------------
+----------------------------------------------------------------
+block_header_hash from 3114146    : 235c012424f1bfdb0d29a9b525a96a2cc668ed67c6f0675392f8f5637b09285f
+Random digits from 3114146        : 2350124241029952596266867606753928563709285
+Number of rares left to be won    : 564
+Sample rejection number           : 9589
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 36
+Added block header hash           : 2af1faa2b5b1452c2f9fe9154d8a7a13dbff0e1090f8d2c8df7c6d52d97c958d
+Added block header digits         : 21251452299154871301090828765297958
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 63
+----------------------------------------------------------------
+Total single digits random numbers : 78
+2-3-5-0-1-2-4-2-4-1-0-2-9-9-5-2-5-9-6-2-6-6-8-6-7-6-0-6-7-5-3-9-2-8-5-6-3-7-0-9-2-8-5-2-1-2-5-1-4-5-2-2-9-9-1-5-4-8-7-1-3-0-1-0-9-0-8-2-8-7-6-5-2-9-7-9-5-8-Total multiple digits random numbers : 63
+95-118-501-125-115-169-294-155-466-300-176-502-184-341-323-63-413-483-100-217-557-275-428-112-550-208-317-545-262-37-104-562-167-326-325-365-434-124-259-70-11-154-44-172-131-421-412-360-254-363-174-191-110-527-345-59-265-392-57-306-321-222-160-----------------------------------------------------------------
+draw,random 1,xch_address,random 2,Rare Chunk Airdropped
+1,3,"Chunk #56",xch1x9pj4x96kw8jdjpc4m4ajf44edr5rhmn2ky7rkaqv7jm8x05vrgsr3wccz,95,nft14fy3unclcfk48jxph9d5yqrt8sq87xt9ymv7amxvpwsgkwer29ustr07t2
+2,4,"Chunk #3694",xch1vr8k2auklypqdh6u6ze239jydgl2cqtuscp4mlpsgwc2eza9my0qzlmcde,118,nft1y4as0yg0cu9sequ4j4ja4uq7l6pwh58qk0xa4fdx2ul52440t2fqeju65t
+3,6,"Chunk #2596",xch1x5ltj3vf7w6jr2hhj85fl0mrwsxwc5ty2u6sx5fgv733e46ujknq77243d,501,nft15qjm0558vugr8mm94adru9za6c2a9gtm5hrq7csnpn59rrvpw2fq0lhdfq
+4,1,"Chunk #7258",xch1ygkdwarxzpcptz5amv0y6tk55yxvx7r6yd4e03r0vr7mq24cuj6syud9er,125,nft1y0rh73njr522e00367wpzzptfj23q46y4c8lfrpnudrj5mds5n0smg4lwh
+5,2,"Chunk #9628",xch1r03lns9027w8w8l05vvdcu40y6tnamwc9jwujhnm99d60ucelaxq0vch27,115,nft1tsvdknkthxzn0pykyp73rncjehfgy07tv623c3a2wa3wp3ugrvdqcj45gq
+6,3,"Chunk #3730",xch166psknn4ly7nypsx6s2z8dl2q4djhl7xr8jz3q9vq800wwa6gl2sys0z2g,169,nft1d56x95jynywrls8vh7z5ngy35gk5dmp7dmhqq6jzg2kerhmtw7ws4e777u
+7,5,"Chunk #4050",xch1v5zzyn29w6e6pl6jsaf60xqjws0jy09kguudjxymml4pmts6zyzq4dq6nw,294,nft1nsrwg4vvw388z2kzvh2ykksasvas4uk38ftd5psm789r6p56hz9scgj4nm
+8,3,"Chunk #9656",xch1xfjh0lssy6776fffkqndc9adaxn0csutv3mkn5fan3nyyfkh573qdd2mlx,155,nft1f3e87kkza2hcmc8ymgt6af58t7vh3j3cxl40nerdn9ehygm4mm0q8xtqle
+9,5,"Chunk #9374",xch1paqaeexjl85a56fxqpt3a4tpxl8ljurvmjus3rz36gcykpn5wxfq9ugapg,466,nft1ayuqpx8whxgzp46lqfnxga7furfehluxmgfe6gpwk0e8mes9t2dqaam90d
+10,2,"Chunk #5528",xch1k40vfec88yv3va56vgz8rc0ca700uzwxry404eegp3kr4usylpvsvzr6xj,300,nft1hh59cqmxysmenp4caxcjq0umntg3lvc2ps4w55fudtfq7ku7m2yss7kj2h
+11,1,"Chunk #9077",xch1k40vfec88yv3va56vgz8rc0ca700uzwxry404eegp3kr4usylpvsvzr6xj,176,nft1hpq5hlp267l7nd2fzpu7man8gcxme38ua9g90zxgk3zcyldutseqtx0qta
+12,3,"Chunk #2777",xch1k40vfec88yv3va56vgz8rc0ca700uzwxry404eegp3kr4usylpvsvzr6xj,502,nft1fg8ldnf4zlxf5h4a4r7mk6aug3qh2yeztamxkx7jqj28cpgw46wq2d9tcq
+13,10,"Chunk #1075",xch1k40vfec88yv3va56vgz8rc0ca700uzwxry404eegp3kr4usylpvsvzr6xj,184,nft1wvutm8sv6hdv66yrh7gdrfrefy6tmjs9zj7h6sat3vftusdmzppsd3mrra
+14,10,"Chunk #3229",xch1k40vfec88yv3va56vgz8rc0ca700uzwxry404eegp3kr4usylpvsvzr6xj,341,nft1vydhzuxgczanef8xulr0eqp0dftv478m46uq25ng00daktmcap0sd9jjnd
+15,6,"Chunk #9524",xch1k40vfec88yv3va56vgz8rc0ca700uzwxry404eegp3kr4usylpvsvzr6xj,323,nft1kvdcm73eftqygpcnrp8n4dp7pz3qha5y667k66z6a6xra8qug8yslfl47y
+16,3,"Chunk #4072",xch1dy0rwrzz4a87sczvh9692zeugf4rv4rzewn7ne0k4fq6uxqwpnrqyvk5yj,63,nft103gtqp0gjeykwelarr8umpcxflh4dp6aml7na0y0nrk0j6m4vsrsq4wx7k
+17,6,"Chunk #3507",xch18sp75t5f6e3azsm6t2epwaztq3hwwxzj4fpjs05u07mcnleqk39sa4kq58,413,nft19mykcf0mn307qvnvzwyaxj5tj5pd873h5sntn7fjq4fuudccac5sx78pw4
+18,10,"Chunk #2213",xch1n7mtn2uvdhxcu0x5hztlyfrndfhykduqwgfs5wzw0qvh6g9ket6qy4jf6n,483,nft18dhs7dxt8585l8gxrcq8pr7d39he3v2z5e24l4n6md5fy9wy9v7qlgxzrc
+19,7,"Chunk #915",xch1dkpetypy44yjt9u62240za0he0q29eaq72lhezfssmhk5t8hm33s78dw0w,100,nft1edjaqwdl88d5l58l7g47ld9al8y9dzq6q2r5pk9ssknr3tlsnmgs23j7k6
+20,3,"Chunk #2922",xch1g9nfpdzzthdy98tqtvgjawrlqaup2pntgq2nj284wjtjwendaveskvmc7k,217,nft1xjmmg40khygrjk2276clqf4hj2lgm6cr3syacm77ahm4x2ejln3q8ap5u2
+21,7,"Chunk #8856",xch1cny9q22nz6lfxxvef8yxnk7yu7fgsankz9fj0lszzdzq8wwjv7ksxrmw92,557,nft1gagdrn6c7qpkzanmx7estuw047ku24nrwv9rcwtadr7y6a4c8zwssxmyt8
+22,7,"Chunk #9752",xch17rz248scdcuh6u9ljd2h5e6uu5mzaledqwwf7k88qhj0mkxjryhqp3s4j9,275,nft1fe2sm262hf3ghsldvqvex67u3pq4n39kvw55yx2qxnnxsw05xdls29xf6z
+23,9,"Chunk #3374",xch1yxea8gqdjln4ezee7gffcvky67lq8g50zzxqp2u9ln5vkk8cdcyquz4y5k,428,nft1f0sc2zlmaxpwpu5gfpekkmenzpvkznughcv3dr0076uq4kf7xlyq552hfj
+24,7,"Chunk #8171",xch1e5dk9x0r09mr5n4u2f0m0r0500e77xjjhza9fzrrunwunjwu4p4sewuh4v,112,nft12xrhnt7fmmw0vcnfyjqq5mcdk8hnsge30ww7dts4ak9cr8lzwupq78r82q
+25,8,"Chunk #2333",xch1psjlzund49zxma86r3na4ayck3s2yfnrd0kax9qj39gly44cf60sxdxst0,550,nft1pklmx47py0pfwak86m3gqenfvlwafw75zarj8glzy4ku7nhzwehqg65key
+26,7,"Chunk #7046",xch13qnq0hs5jf0xuuv3umcz6rhlhcnphpj5dtefg25y5hzazrv25ljqvrwykt,208,nft1qxyupwm90cp9felra0letee6ug9vm86texdgfna6k3jeaqrq37tq67su7r
+27,1,"Chunk #9746",xch17vqq8r2wz76wgh40hqj2ncgh0wxlgphlmx0z5d2g0y5jgf3zxs0q4aafne,317,nft1jc895thgptm0rtf0uyu35e8jd728sn5gnae2kzhrlrsy9nhkasusgeuptr
+28,7,"Chunk #8554",xch1s4c22yehvd6cwvjwhnkr7l06dttnk8aae6aj9p5x5ukkga5z8xfqmj4z99,545,nft1cew3j3dzyuc5wrhnllh9w8nw4yehpc59p4kk9cksqnpdmrmrd2fswduw5r
+29,8,"Chunk #318",xch1e8d7lmuahlh7eyt4xpvyecw5ns8r9hv4rppnajs4zdampn4cejaqxd4az6,262,nft1zkv8l5mll29g308mqgl2ttvlysjnp4kdtu5ycevkn2xkx07v6nrq4kvps3
+30,6,"Chunk #2378",xch168pljhnc9ldfkqgg5aua7ajvqhq6ejkt0dj3rk4f9egsc7zuhp8q0gdqtz,37,nft19s7jc9hys6hl5fxdrqugae7jxwj7nc0th06y59x04fxtlel8044qx6ce3e
+31,4,"Chunk #6689",xch1qwu8slxnv923e5xukpm86gkyzjvjtkr0e2rzr2ydlxnfx673mn6s58dxzr,104,nft10kpq3a6fuu3plap20ys33nxmkx4qk3l6n2zdxjkn47q9tddkktlq9xe2ja
+32,10,"Chunk #7385",xch1dwwklre6r80tq3q8f7yldda5j8uw6aaqgc9tmk9j4qhr5plfwu2sp5qpmn,562,nft13xmlda8lq8usud9ym25gdu04ungcqagy66l8hxjr87e9mnzxum7qs8k6vv
+33,3,"Chunk #325",xch1hgekawafhrlq94d64df6uvlt2hqc7af4rm45sv7wmh55ydjqzhzsrtk8a8,167,nft1zp82p0dg6grkx7rgrd9ruylhff32awauuq7kz4jw0cpa8yc8gkrqkuyeak
+34,9,"Chunk #7222",xch1k40vfec88yv3va56vgz8rc0ca700uzwxry404eegp3kr4usylpvsvzr6xj,326,nft1cjsw45kw55svk5zqyd0p8exzwnvc7vl48dgzwqfx45wpvdpn569qqyhc2z
+35,6,"Chunk #1005",xch1cyc80w48l6wjljfsuzynnmhyx3uveld7z55zkau3ws3zt9tjjuysmgyu4e,325,nft1l8yhjvejtw9e3990ntgn0y23r953y35hnft07qn9afyd2hzp5e9quvfsu5
+36,7,"Chunk #648",xch1hgekawafhrlq94d64df6uvlt2hqc7af4rm45sv7wmh55ydjqzhzsrtk8a8,365,nft1f2jatjewxnfag48cc4x587qka9q2ca22esjl2xpjkz4g3seynulsvydcsp
+37,4,"Chunk #4930",xch10fl27jzjzkypv86dm2kmrk2hkph7d96x60luahuqq7lsty97eq9sg2mlvq,434,nft1s5twm32jvknc72467hsenhwflqzp2yk0jgu8yzxk84e50a3erlsqh9dx5u
+38,8,"Chunk #6668",xch1cdxr5f458zf38j7glj8wl6aw0yk4wkmcjazn00u8q2nur0j4vqfsmscrtm,124,nft1w24x9tzjex33e4tcjmh8f3upd7dmpdn6zsly7f7ty2enmr7sx5yqckac9s
+39,1,"Chunk #1226",xch1m5mkt93j7yk3p3da3hg04rzfthmgfpzfv50meka9aqgrc74ptv2sctmqry,259,nft1erncljq9z30tjcywuu3klyv0dxghzym8pt0ugnrlfy8s64qcly9quf6h3m
+40,10,"Chunk #8636",xch1lgw74muxkjrynr8qr5j7trfkjq5t6v8a57h2pju3flpvtl9th35s2phk8l,70,nft14dv50t7z40yytt82ctvxapwdjfaadawufqq20yw9m3u36quecuhqadscyz
+41,3,"Chunk #2415",xch1fd4dztmy8x0ttvqh2x4t59x70mmnwn4vqgaswudap42wpme9us9qy670sj,11,nft1svdll8zdgdsuec92tn3czhrx0mhe3njtf7gl096hsxm5883ql5csuq4qlu
+42,9,"Chunk #9936",xch1nc4c99fe7c557sd7hhtgte03lnq48p2khfcv7rmgq2tlp0hvn80qfnaxj4,154,nft1fqdxgy9sh8xuwfc5wxgc0wx0v07950trrszuvl03l9unc2h33x4sxsenp7
+43,6,"Chunk #46",xch1ftadj8usykqelduwnewymu8hjykwxj0klccrxy3xqy7fqjhf8husgng8py,44,nft1sdxw9ga956sn2pynp3qyej69wtkt7a5e83qqurj88j6g8xxwzk7s7w53a2
+44,3,"Chunk #9068",xch1g2renthph3zt3fs37jr5cvwuejxf7yjhzyn9m3ydqfm58h6qkxjsq4fqn2,172,nft1gpugfv5gfg78z8pafns7xg3zwgyz3d4pddg98cfc8muavyu25fzsq2uxte
+45,2,"Chunk #5945",xch10rgqwx8e9q9crpp8ftw2cq0hsdxrx6rhyw3gpacjhmqefesawh5q5yk78c,131,nft1053pe6jhcgws0pvwmvvgray6ulcj6zzwcrj8f2ae29jcxdq8rznqlx80e0
+46,3,"Chunk #3142",xch13r2z66zf4a73r7w5lhuhq8ry69hkgxclwq472cqvu70lykapzg4qk7y0c5,421,nft1kfa7njqfp9kajpq96wu8u8xjz6ud8c2khmfr5tt4ccapyk6lms5sam4vym
+47,6,"Chunk #5335",xch1w6a62vnvdmx6cwfp0x8qdrpkppgap4dm2nf3mvc9s9438ykhf04qsd96km,412,nft147afa6f80y529qldlsv7japwfa0pq2028uu7qj5duulsgm54e9nsl5h37v
+48,2,"Chunk #775",xch1n2478xuskgpwwcpqnfryuf7p0flddrh6u290957emxgc49ag0qrsrm37p5,360,nft1vay0h2dx2mdktw7h0r3rs8zrw72n86avnkz5zwv92pncysw60yksqv9lmv
+49,5,"Chunk #9505",xch14z9qp9p34mz28mxez889wzsvwvhgaaeln9ps8m23ffujt3jzyjesnjj8k6,254,nft1xjhut0024jjf56slvv9aq97mps2j5c2a596584gnscfnadxa7l2qkgf6e7
+50,6,"Chunk #5209",xch1a7pl3xhkc8609yqp86a56ppyqe00j83d2pfrdvwnnykh7ksm7gxsvqs6kx,363,nft1sklql2f7z4ynrs3n8j2fz02c5h40qe3mgsxwfa0cu730zlwve9esvalgfv
+51,3,"Chunk #5587",xch1srs4l9p56hyxcdxr30hvtpt073urpqd42adtaxjdmr377cpw7z8spf4s3f,174,nft1s6pjktee8zcmpg6n2wtjrc77lrgfgac8euhk5mwyhavenlyz0xnq0cfmdv
+52,3,"Chunk #7205",xch1ezhd6dkjqrxne0y6xpftsyjuevcpell3g56md2vyyxr292e4mr9qyd3p55,191,nft1gjejrvzqhzx2upqse3xfe4r9vumf70ngtaqnm3wr5ffslxd55f0qtdh3yq
+53,10,"Chunk #7168",xch1k5pr7kf3cfkaklsad77drmxjee22maza2xg08tzfag76z2uc5mlq3nks74,110,nft1e9y2pj5nemltzgf4tkaazcc5hglf2r3f3y9m84l7k9u54zd7cr9skpcckm
+54,10,"Chunk #8207",xch1trw2cdslmzvglft5qgksqhxlg735h8rgmtsm7hnv0tpwxjsrpz6sd792vk,527,nft1sk6d0qx3cltc67s7vduqxhqfaf9xx2dwsh9e2dtapfrhh2j7pymqrllpz3
+55,2,"Chunk #481",xch1uhxyprt5ljkasqqyrhhkh2dfn43ra42ehnfj9zlrc9wqtcerzw4svkkpt2,345,nft1keegh3ayk4m9jtjptpk6fmwtca78jsmgaa36djjkwx6xcshdee7skwy98k
+----------------------------------------------------------------
