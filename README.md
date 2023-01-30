@@ -1,7 +1,7 @@
 # Provably Fair Rare @TheChunksNFT airdrop
 Every 10 trades of original offerfiles accepted via Dexie.space (0.1 xch offerfiles created with the TheChunksNFT wallet) a random winner is picked among those 10 trades and will be airdropped a rare Chunk (top 1K)
 
-One draw will be made every single day until all of the rare Chunks left in the wallet have been drop (830 rare chunks left.
+One draw will be made every week until all of the rare Chunks left in the wallet have been dropped.
 
 Initial Block chosen in advance by @_Ghost_Friend : https://twitter.com/TheChunksNFT/status/1599518122436067328?s=20&t=qclIXcEUAnOg5cyk3suuLw
 INIT_BLOCK=2920610
