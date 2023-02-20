@@ -7,15 +7,15 @@ if [ $1 -eq 2920610 ]
     block=$1
     previousblock=2864212
     echo "Scanning from block $previousblock to $block (cutoff block until 1st block)"
-    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/next_block_remainder.txt -O next_block_remainder.txt
-    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/rare_nftids.txt -O rare_nftids.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/TheChunksNFT/master/initial_state/next_block_remainder.txt -O next_block_remainder.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/TheChunksNFT/master/initial_state/rare_nftids.txt -O rare_nftids.txt
   else
     # Scan the last 32256 blocks (7d)
     block=$1
     previousblock=$(($block-32256))
     echo "Scanning from block $previousblock to $block"
-    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/next_block_remainder_$block.txt -O next_block_remainder.txt
-    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/rare_nftids_$block.txt -O rare_nftids.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/TheChunksNFT/master/$block/next_block_remainder_$block.txt -O next_block_remainder.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/TheChunksNFT/master/$block/rare_nftids_$block.txt -O rare_nftids.txt
 fi
 
 # -------------------------------------------------------------------------------------
