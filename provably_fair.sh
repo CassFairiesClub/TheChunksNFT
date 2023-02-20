@@ -79,7 +79,9 @@ echo "Call to the dexie API successful " | tee -a $block/$block.log
 # -------------------------------------------------------------------------------------
 # filter only the valid completed trades
 # -------------------------------------------------------------------------------------
-jq -r '.offers | .[] | select((.spent_block_index >= '$previousblock') and .spent_block_index < '$block' and .previous_price == null) | .offered | .[].id ' $block/alltrades.txt > $block/puzzle_hash_$block.txt
+# old filter, it was accounting for drop who were eligible once sold
+# jq -r '.offers | .[] | select((.spent_block_index >= '$previousblock') and .spent_block_index < '$block' and .previous_price == null) | .offered | .[].id ' $block/alltrades.txt > $block/puzzle_hash_$block.txt
+jq -r '.offers | .[] | select((.spent_block_index >= '$previousblock') and .spent_block_index < '$block' and .previous_price == null and select(.requested | .[] | .amount == 0.1)) | .offered | .[].id ' $block/alltrades.txt > $block/puzzle_hash_$block.txt
 current_valid_trades=$(cat $block/puzzle_hash_$block.txt | wc -l)
 
 # -------------------------------------------------------------------------------------
