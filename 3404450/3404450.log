@@ -1,0 +1,49 @@
+----------------------------------------------------------------
+Using block_header_hash from block 3404450
+block_header_hash from 3404450     : a0949859e9e368683fbedef46164af76aab4ac33007af8983b753824357d01bb
+Random digits from 3404450         : 094985993686834616476433007898375382435701
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+bd7008316a0726919294d29a375a6de0738487e2338b2f52bf8636b6551349da
+965ce0e0e2f271eaaab6d1ded880551c02402553dd29d83ea52dbc71b10074a2
+409c18244e74e9c800876193bf309ff43329bb34e2727eed22b505177dd3693d
+e931f4f88c8739001a522bf85ae895ff67dd6a21382927bcaacdb5d6e0315771
+81e5d797ba6417b8e4a4f3c22160fb1fb59085f365a5224c075b9c3c5416121c
+e63b51b9d1f1e765561cf318eb9a2549cae64e35f9ede71859cc1846413ac47d
+70085082d6649e3efe9144413e6366206140e40f8a6f17268a220c523f12e8a0
+fd2c30a64fca608de3af5597abd08cb25ba6a6e43fc5b96be6ddf6bbd98ac908
+----------------------------------------------------------------
+Current draw eligible trades      : 30
+Remainder eligible trades         : 8
+Total eligible trades             : 38
+Number of draws                   : 3
+Remainder of current draw         : 8
+The following puzzle hash will be included in the next draw
+4af1b0b5f15340bf5f29de26af2f159b0a94d279e4a9ea9ba653d6ad53f627ed
+80c705f3977542a98f58c1d60e2a605ea27d39600d2c6b2eabe9b683b083f6b5
+2e2278e60852cb11bde20bebca13f035248e37601ba358e24bfc57adcd6381dd
+8daadeb7700fbfb5f77db8ca3751171ac9713f11c396298a879a850a2ca1888a
+abfc6012a947ec1d2687b4bdcae6857ab8d2c2d420d2953d82a5bea2b31b797b
+21ead68ca2466f863f280943374594ebae80e10a2244dcd30b106d6f03ba6f1c
+69257d4a8614402609f12e4cfb95d618f03969c8260d3f8f6c71214d82f1849b
+235a7a49c84900d698e521f7dfeda3f661753762c3414ad9ab7ec00e1252aa8a
+----------------------------------------------------------------
+----------------------------------------------------------------
+block_header_hash from 3404450    : a0949859e9e368683fbedef46164af76aab4ac33007af8983b753824357d01bb
+Random digits from 3404450        : 094985993686834616476433007898375382435701
+Number of rares left to be won    : 278
+Sample rejection number           : 9731
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 35
+----------------------------------------------------------------
+Total single digits random numbers : 42
+0-9-4-9-8-5-9-9-3-6-8-6-8-3-4-6-1-6-4-7-6-4-3-3-0-0-7-8-9-8-3-7-5-3-8-2-4-3-5-7-0-1-Total multiple digits random numbers : 35
+116-47-260-156-195-73-197-66-163-7-126-169-49-258-83-39-138-40-161-243-228-79-234-115-88-36-140-33-101-211-182-212-188-235-142-----------------------------------------------------------------
+draw,random 1,xch_address,random 2,Rare Chunk Airdropped
+1,1,"Chunk #5790",xch1xr0g8xsrunazx3wn6xsy9ahuzqj7z4tvz7c0wu47zsk8x7snzgus4rr2wg,116,nft144we5gqkamwj43cqq7cw2lrvmtf94vsvk0wmdeyfs82gm7tlkwmqwl99ku
+2,10,"Chunk #7833",xch1ekhcj7cq2k4eza75lpllysm90fs5ereyw2025ac0hzs0skaw96tqa9mfa0,47,nft1rfmac74lt40ehcxphctxpsykg89epdscpjnqpaz894ducps7qy4q896z7z
+3,5,"Chunk #9727",xch1v5dh0t7ug85yd7wyp3qf2vywnx0f2hmv6fr2xzv8205q4sdmwynqpaewpa,260,nft1yt2ua7sad87pveun9g65vkg8urycwpxc258f3pkzmajs2qekmrqswnrv74
+----------------------------------------------------------------
