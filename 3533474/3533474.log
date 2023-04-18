@@ -1,0 +1,30 @@
+----------------------------------------------------------------
+Using block_header_hash from block 3533474
+block_header_hash from 3533474     : e522c76000c837f59039b55cf5095ac58e59967d78d28862065fbb716d8627c2
+Random digits from 3533474         : 52276000837590395550955859967782886206571686272
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+f3cb121d17e9284210c764b6d77590bf736af8378db479d59d0971a34b40b6cb
+d526c255b6e6bd7f68e9fdf1b67bbf52b245b01ae144d859aaa0bec3911ca674
+a9380e9b7555cadf30f75218ffd5a50837c8950f795363771d64cb84e3fe9a24
+51a042adf9b3ecd53031a83b802d90c11a4fa30cf805c0d844b51ec42be03dba
+7b2ac91834a10c0aec1c3037dbf2ac32fbf859f86dea37f9cdc52b88bf677164
+783e02389ce9018bcaddce7635ca977a74afdb7d26e19eebe1bd7f883e59cab2
+16d23e5aa74badaf12562408a8399f313ba5d93d2ea99bc9b00d9260c557664b
+----------------------------------------------------------------
+Current draw eligible trades      : 0
+Remainder eligible trades         : 7
+Total eligible trades             : 7
+Number of draws                   : 0
+Remainder of current draw         : 7
+The following puzzle hash will be included in the next draw
+f3cb121d17e9284210c764b6d77590bf736af8378db479d59d0971a34b40b6cb
+d526c255b6e6bd7f68e9fdf1b67bbf52b245b01ae144d859aaa0bec3911ca674
+a9380e9b7555cadf30f75218ffd5a50837c8950f795363771d64cb84e3fe9a24
+51a042adf9b3ecd53031a83b802d90c11a4fa30cf805c0d844b51ec42be03dba
+7b2ac91834a10c0aec1c3037dbf2ac32fbf859f86dea37f9cdc52b88bf677164
+783e02389ce9018bcaddce7635ca977a74afdb7d26e19eebe1bd7f883e59cab2
+16d23e5aa74badaf12562408a8399f313ba5d93d2ea99bc9b00d9260c557664b
+----------------------------------------------------------------
