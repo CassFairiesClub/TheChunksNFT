@@ -1,7 +1,7 @@
 #!/bin/bash
-FINGERPRINT=
-WALLETID=
-BLOCK=
+FINGERPRINT=3187864955
+WALLETID=5
+BLOCK=3630242
 
 wait_transfer() {
 MINT_STATE=$(chia rpc wallet get_wallet_balance '{"wallet_id": 1}' | jq '.wallet_balance.pending_coin_removal_count')
@@ -19,5 +19,5 @@ TA=$(echo $i | cut -d ',' -f1)
 NFT_ID=$(echo $i | cut -d ',' -f2)
 NFT_COIN_ID=$(chia rpc wallet nft_get_info '{"wallet_id": '$WALLETID', "coin_id": "'$NFT_ID'"}' | jq -r '.nft_info.nft_coin_id')
 chia wallet nft transfer -f $FINGERPRINT -i $WALLETID -ni $NFT_COIN_ID -ta $TA -m 0.0000000001
-wait_transfer
+sleep 300
 done

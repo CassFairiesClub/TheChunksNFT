@@ -1,0 +1,42 @@
+----------------------------------------------------------------
+Using block_header_hash from block 3662498
+block_header_hash from 3662498     : ef6081413d1ab4eea1d783d36e97a05c8a6f3caca2a3896f0ee165212a8cc190
+Random digits from 3662498         : 60814131417833697058632389601652128190
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+cd9b5235d42df7b64dc7f7616b232208a717e78e177905100d968642488f3c76
+ae11d995363b8c4a73eae6ce68b75a89dba05b60164ad3e590e62eb1e53f56c1
+d275f0e021781604416a3b937f89d017628750856e9666a8c1f9d4cf9406f5dc
+----------------------------------------------------------------
+Current draw eligible trades      : 42
+Remainder eligible trades         : 3
+Total eligible trades             : 45
+Number of draws                   : 4
+Remainder of current draw         : 5
+The following puzzle hash will be included in the next draw
+128c71a32ec18a41f7bd3ff986b742b9f687452bc9f3eaf0f0b161482024649c
+0e08c96e5be9244a52a11356835c56720eaa7dad0039dadef9f793adb838ab84
+0c6d699a8925eee234ee0b8a542cd3a239ac79ed041f94a52eb58ba560beaa70
+05968ad538cc320bf11cbc9a0020b75de159fbd68bca31d66e79c5f39c1f6bfc
+098ef2f0090cb0c72561003ae43f0d55989470e68652bb72cfdb63fced92a366
+----------------------------------------------------------------
+----------------------------------------------------------------
+block_header_hash from 3662498    : ef6081413d1ab4eea1d783d36e97a05c8a6f3caca2a3896f0ee165212a8cc190
+Random digits from 3662498        : 60814131417833697058632389601652128190
+Number of rares left to be won    : 247
+Sample rejection number           : 9881
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 33
+----------------------------------------------------------------
+Total single digits random numbers : 38
+6-0-8-1-4-1-3-1-4-1-7-8-3-3-6-9-7-0-5-8-6-3-2-3-8-9-6-0-1-6-5-2-1-2-8-1-9-0-Total multiple digits random numbers : 33
+154-74-238-179-180-80-178-183-227-55-177-186-159-240-73-143-93-235-149-28-167-192-69-216-89-166-171-100-26-153-47-103-40-----------------------------------------------------------------
+draw,random 1,xch_address,random 2,Rare Chunk Airdropped
+1,7,"Chunk #231",xch1grravpmvwzjq07zdvsrfa9xsaemz9l5kmc60fd5tqs6ummcm75zqeqrs74,154,nft1q5l993gsuulnh2n7vgsy889ajesvfu0mk7wmkja4lfsgzu7as5lqtlcnzh
+2,1,"Chunk #411",xch1675p9gwjzuuewx3k7ecy5rneaw2kez9aduh4km35vwfez8tncpwslxefz5,74,nft1slvulp40elh2vl48w8m93yvprz7vc4vnxcgyu8smll5d4h2w57dsmtl9jx
+3,9,"Chunk #471",xch100huzp4thcnw6ffsz9vtg4jpsdcnrartugxcjj2nwmvzvyh64jvqjflhkq,238,nft14x74amulj7ru4lz469v7ufj5cdj5awpx03kcwtleehsvv4s86fjs7er0nq
+4,2,"Chunk #2099",xch1038vezhpvvzvhumr7caa5ef4euvm5s8503kl4q6n0yr3na0cn0wqhl7cs3,179,nft1wtngkw9pqsjf3nh5y7kkyhwjwxusq2cs7meazxjaxfx4hngvu57s3ugk35
+----------------------------------------------------------------
