@@ -1,0 +1,38 @@
+----------------------------------------------------------------
+Using block_header_hash from block 3694754
+block_header_hash from 3694754     : b4af3fe28106817756719dd595117b877fdb0be749263c60b790a879e0926c67
+Random digits from 3694754         : 4328106817756719595117877074926360790879092667
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+128c71a32ec18a41f7bd3ff986b742b9f687452bc9f3eaf0f0b161482024649c
+0e08c96e5be9244a52a11356835c56720eaa7dad0039dadef9f793adb838ab84
+0c6d699a8925eee234ee0b8a542cd3a239ac79ed041f94a52eb58ba560beaa70
+05968ad538cc320bf11cbc9a0020b75de159fbd68bca31d66e79c5f39c1f6bfc
+098ef2f0090cb0c72561003ae43f0d55989470e68652bb72cfdb63fced92a366
+----------------------------------------------------------------
+Current draw eligible trades      : 16
+Remainder eligible trades         : 5
+Total eligible trades             : 21
+Number of draws                   : 2
+Remainder of current draw         : 1
+The following puzzle hash will be included in the next draw
+665a0f857eda9a63dcaf419e3fe409cfafa8793930b84bc1afb32ffb027dd2dd
+----------------------------------------------------------------
+----------------------------------------------------------------
+block_header_hash from 3694754    : b4af3fe28106817756719dd595117b877fdb0be749263c60b790a879e0926c67
+Random digits from 3694754        : 4328106817756719595117877074926360790879092667
+Number of rares left to be won    : 243
+Sample rejection number           : 9964
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 36
+----------------------------------------------------------------
+Total single digits random numbers : 46
+4-3-2-8-1-0-6-8-1-7-7-5-6-7-1-9-5-9-5-1-1-7-8-7-7-0-7-4-9-2-6-3-6-0-7-9-0-8-7-9-0-9-2-6-6-7-Total multiple digits random numbers : 36
+198-123-138-88-97-196-14-159-75-224-35-83-149-16-119-120-15-207-87-102-23-175-28-21-203-67-30-43-206-5-62-133-151-134-33-238-----------------------------------------------------------------
+draw,random 1,xch_address,random 2,Rare Chunk Airdropped
+1,5,"Chunk #5771",xch1qqavxq2kyjtdkkrzjzc8n638v69j6s243g6n67w4wz37zqs8knys5cm7cx,198,nft159vqzsxrpkz7hxdh9ggdtlrdmyzg6cxtf7kkh9n4gdwccc44plpqz5w692
+2,4,"Chunk #7858",xch14q2yv9k5vfftfg4geaamuvyf0469h2f3em8hdycg8433uyv6udjstrazl4,123,nft12ym36cfq69vrxntlq0mamnumxxmc9pa0m33487uach2guu0jje2qxhelgk
+----------------------------------------------------------------

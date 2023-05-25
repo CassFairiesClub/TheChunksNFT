@@ -1,7 +1,7 @@
 #!/bin/bash
 FINGERPRINT=3187864955
 WALLETID=5
-BLOCK=3630242
+BLOCK=3662498
 
 wait_transfer() {
 MINT_STATE=$(chia rpc wallet get_wallet_balance '{"wallet_id": 1}' | jq '.wallet_balance.pending_coin_removal_count')
