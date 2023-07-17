@@ -1,0 +1,38 @@
+----------------------------------------------------------------
+Using block_header_hash from block 3888290
+block_header_hash from 3888290     : 967737bdfbacbac70c66ff0f8e346ffb425a59fdd358a11900f14cab11806e2b
+Random digits from 3888290         : 967737706608346425593581190014118062
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+e6da52f651fa6d63c93105d5fa77d7865608b7fd26d00893ee90be9a1fd55f73
+efeeb4c910d88c98627e9ef96312ac8c1d5d18921c3df673bc23863bedfa2018
+104f965d791225807da3af321f4e4dfaf4ef9577c74d36ccdb7f424751a85f13
+----------------------------------------------------------------
+Current draw eligible trades      : 11
+Remainder eligible trades         : 3
+Total eligible trades             : 14
+Number of draws                   : 1
+Remainder of current draw         : 4
+The following puzzle hash will be included in the next draw
+b6a0f016d513b2e410d6535ca45311d8916bc014b54663a6e02b905b5ca6c045
+034addc062a3d043f3510c1d97bc2759d72600e0d0af7eada464539cccc16b79
+02e885df96aeeacdae7742f6c337c8c5f2e6601cdff6600ab4f47b13c72db59e
+024429d626d44a4415dcb4efc434583bbad2cd374ae6477523a12ede1ad1fc31
+----------------------------------------------------------------
+----------------------------------------------------------------
+block_header_hash from 3888290    : 967737bdfbacbac70c66ff0f8e346ffb425a59fdd358a11900f14cab11806e2b
+Random digits from 3888290        : 967737706608346425593581190014118062
+Number of rares left to be won    : 202
+Sample rejection number           : 9899
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 31
+----------------------------------------------------------------
+Total single digits random numbers : 36
+9-6-7-7-3-7-7-0-6-6-0-8-3-4-6-4-2-5-5-9-3-5-8-1-1-9-0-0-1-4-1-1-8-0-6-2-Total multiple digits random numbers : 31
+184-108-62-106-135-31-199-55-145-24-27-65-164-14-136-140-78-67-148-156-40-181-83-114-15-142-200-79-171-191-185-----------------------------------------------------------------
+draw,random 1,xch_address,random 2,Rare Chunk Airdropped
+1,10,"Chunk #2830",xch1a0hwczpteesl2mylsmj43etd8pd593s2e7d5jhe5tslcd3wnexlsztq0ce,184,nft1xznqe8punejt3rt0xvlgj7kv4gmyc0s9e42m2wdyyjz43t2qk3qqd343xs
+----------------------------------------------------------------
