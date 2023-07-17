@@ -1,0 +1,54 @@
+----------------------------------------------------------------
+Using block_header_hash from block 3952802
+block_header_hash from 3952802     : 2580a9f241ffbe0f7630c14d35203f2165a0b5066f49e43c5dee659b5888ee84
+Random digits from 3952802         : 2580924107630143520321650506649435659588884
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+33d9ba28e9ba6efe1fad1cb1a9bb0974e9c7ff7dcf112d5a90e78f50d8d4df80
+44588e51ad7a9dc3e17a778eab52a191b2fe322d72389c28ad5b767311264445
+b6a0f016d513b2e410d6535ca45311d8916bc014b54663a6e02b905b5ca6c045
+034addc062a3d043f3510c1d97bc2759d72600e0d0af7eada464539cccc16b79
+02e885df96aeeacdae7742f6c337c8c5f2e6601cdff6600ab4f47b13c72db59e
+024429d626d44a4415dcb4efc434583bbad2cd374ae6477523a12ede1ad1fc31
+----------------------------------------------------------------
+Current draw eligible trades      : 111
+Remainder eligible trades         : 6
+Total eligible trades             : 117
+Number of draws                   : 11
+Remainder of current draw         : 7
+The following puzzle hash will be included in the next draw
+74404ed5c720f5dbd0b3e871d2c3b1f11f15bdeb79c88e668cab1aa92349e903
+811df3ce24bfe4f480950002dca8b3e607530b67d4146259c384c103920c390b
+837a1e777fc45c8f2d39ee48c4bba8905f228b50ec043d0ee469e5c372e7cc0f
+b7b2d2303ee73ee25f2497b7b59d2bf701ed255816841742b2466620b1c56669
+c8172eedce319442e9a75363c34e287deeed2985e6660fd8a628234a9149a6f2
+98dde5918ddbe44114f9a34f37f706a1d97fbc36cc8d27b0280c289b67c977ad
+bf2b3bb04d4f90289648f39ef6bac7db6ec635cead3f3ba7fb174bf4cea9ef05
+----------------------------------------------------------------
+----------------------------------------------------------------
+block_header_hash from 3952802    : 2580a9f241ffbe0f7630c14d35203f2165a0b5066f49e43c5dee659b5888ee84
+Random digits from 3952802        : 2580924107630143520321650506649435659588884
+Number of rares left to be won    : 201
+Sample rejection number           : 9850
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 39
+----------------------------------------------------------------
+Total single digits random numbers : 43
+2-5-8-0-9-2-4-1-0-7-6-3-0-1-4-3-5-2-0-3-2-1-6-5-0-5-0-6-6-4-9-4-3-5-6-5-9-5-8-8-8-8-4-Total multiple digits random numbers : 39
+169-182-53-121-197-200-88-72-161-194-71-201-144-29-132-104-179-23-1-156-43-74-26-105-42-62-17-63-120-190-136-149-32-164-130-142-60-45-41-----------------------------------------------------------------
+draw,random 1,xch_address,random 2,Rare Chunk Airdropped
+1,3,"Chunk #4243",xch1klulaw5qtfdcf7kcdxmkh07h5h5fq55p4j0jmv9rvya2pwhu6r5s0eyha2,169,nft1xwrse7qufw64nynnwt3dveukwwt0qd4crygvgalwras08mxnm38sq2w2ea
+2,6,"Chunk #8204",xch13vzqrmemx6ullm28smyxty4vtgm9h6fvfgpm3cgua5g747qqjylqw39xe7,182,nft1t80l9tlzd63v7rqf3dhlezzxcx362qsgh6j0xtf5tdfmpsnxvjnsph9kq2
+3,9,"Chunk #1324",xch14lzrzghhzzzdqt4cmg0ssx57zegvrpz0slyth9ztpxsj9h9ummmschv2sa,53,nft1r8jc6ffepwr8f2rudmxyn32entehv9hw5rq0663vvlc7kn8ht47sv3zhra
+4,1,"Chunk #2970",xch1nwzxsth8kgu424tj7wpxjkmfpkkndar2dgf8g94v37hq05fatc2q3gdj4v,121,nft1gadsvzz6hma5x5ekjngpw0nmy0jg9r43gg5z5de4lktez2y089kq6jprpc
+5,10,"Chunk #3515",xch1gdqzc62k5ctc7f72gdwsmsmmuz08zfghec72lq3hjanzmkxe7fcspkkccs,197,nft1k83sc235ycjc8q3xvdzz9jr3w4a8zh7nmn0f76et4emjgexpa4jss34t2r
+6,3,"Chunk #7122",xch1wctwgq9jc2l5093df888nl45hl6vucrlp953hrd9fu6wle6pa6tswea9pd,200,nft1n3jfgjdrzgqs770lxplsyr6ae23vmru5hty72ukfgen0s7djyvpqukp00l
+7,5,"Chunk #624",xch1c9n2fvl7amrs9mcrcvlmyyrlsnjen790lqua7nj4rt7rzvf0a7gs7vvwdt,88,nft1099c2tqhfv5xuj42fw7e4kz9vg8uqgjphydlgqyge9spxxfw7ylqea3a0w
+8,2,"Chunk #4024",xch1nld33strug7ftwuklvpc9ptdjvutuavkuqzz4d9se5se4nuux4eq4zjhhv,72,nft1k5kfkefxe64333lcjdu3cqt4n8tfan57n0pju44cultnhu3hne9s5ft0z7
+9,1,"Chunk #1786",xch1qzgjfs4jx7yewu3k203kykk342zv58pqnz39aefgp3syt7zdpansdf3d7l,161,nft1ncytcgzw85zx3qvr8j9n24s9q5p3kq8svrfat25aqgqtht94s28q4h5gv5
+10,8,"Chunk #5349",xch1zlduv62qzm3rawuc03tqmueuh36vxxn9kgyach7zgaw6cpx8m9jql9umyv,194,nft1n9mgp7dx49xdqzv8vfddalxwjhx2ykpaey9xg6qcm7r7jdxl2plqf3k0mw
+11,7,"Chunk #6640",xch1w8dy6kp9ylwkcxc8m5jqn5szykgn4f92l4wft9fdygakc8z0cqnq3yxxdd,71,nft165zy4kdnm56lnfnat5j6janz36zsfakj4r4pswxdpyd3z03c9pqqgff6qm
+----------------------------------------------------------------
