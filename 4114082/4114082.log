@@ -1,0 +1,46 @@
+----------------------------------------------------------------
+Using block_header_hash from block 4114082
+block_header_hash from 4114082     : aaaf82bec26871f00e85a9893e4d81ea5a9cb0d8f875983201eb0f931e37d377
+Random digits from 4114082         : 8226871008598934815908875983201093137377
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+0aac9b073f1868d9bb6d0633bc41193a18d251a9c901e6fc0aac117e8e53a02e
+0524829b16e0aceb8d0d56c616e5dd2c1c1d7dbc7cf25a75970a2d70c0f503e4
+77086d122a8291865bbd325e4cf5cfcde383168efd861d9b211868a8697fe5f2
+30abb4db476e83621a4f968e4bea7ba81910b595fad7584f7ddb22fca96390d7
+----------------------------------------------------------------
+Current draw eligible trades      : 106
+Remainder eligible trades         : 4
+Total eligible trades             : 110
+Number of draws                   : 11
+Remainder of current draw         : 0
+The following puzzle hash will be included in the next draw
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+block_header_hash from 4114082    : aaaf82bec26871f00e85a9893e4d81ea5a9cb0d8f875983201eb0f931e37d377
+Random digits from 4114082        : 8226871008598934815908875983201093137377
+Number of rares left to be won    : 160
+Sample rejection number           : 9921
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 36
+----------------------------------------------------------------
+Total single digits random numbers : 40
+8-2-2-6-8-7-1-0-0-8-5-9-8-9-3-4-8-1-5-9-0-8-8-7-5-9-8-3-2-0-1-0-9-3-1-3-7-3-7-7-Total multiple digits random numbers : 36
+67-29-128-152-71-61-49-86-60-119-70-134-135-69-122-16-160-151-149-129-88-76-120-79-64-73-1-2-91-110-132-34-98-94-58-18-----------------------------------------------------------------
+draw,random 1,xch_address,random 2,Rare Chunk Airdropped
+1,9,"Chunk #8427",xch1ylt5qjx36du2umq0ly9yx5ummemj9jvnvt78jyfsaq988pas88kq6s5n2e,67,nft1kplyxsevgczyc7xp9q7yctqt9ynnqmwxv8pm3yc87elshapwg2rqwkcjxv
+2,3,"Chunk #2847",xch149q87knszwfgj7gr745s7f563xydwj8frznw0ga208p3uu49j8jsa0tc8p,29,nft1d8sc8kha3nrjp7f4a6vwzrclfgmrhp004pfnal4ztsfza6are4ssczn08g
+3,3,"Chunk #9061",xch1k2apja8e35qppyu6h0gsc5juyexv2f2sux42yf6r7ccchyrr2sns7m9n8h,128,nft1kuel0cqtq5yvr0nds5pfsnmagllz6c4k7xwdz5xtjmw9y8qk8dsqykjwtg
+4,7,"Chunk #2908",xch15nmrcf75jwvfnln0j5rafqa43307xcat75cr4dfc3746qphjkv4sm3va4q,152,nft1wgfa8m6v0khsl74jyrd0530xt6lmp9333j373nxchvmu4x43yjmsyzrne7
+5,9,"Chunk #7781",xch1ghk07qtsvja28ymsyrht4jvnkq63mpd0w6lcj54nv432lxks2flss53vdk,71,nft1letcj9e2qy46xg05dls58ltctzxg2mdag563y3ynwxys6wtcdfds6txsad
+6,8,"Chunk #7312",xch1vaagdgdc9mjpcyhtfkn3u2yuk9thfca6klyz7tgzt58hpx7vtp3sk3596c,61,nft1eqnx38jxthma4jcfryvxa2lefmzw8c5wap7cmqyzq7fvhkvy8pysnyyk8l
+7,2,"Chunk #7954",xch19zev33qjtxk984rekkuvedgtzxn4tha03jwr8pjqfkqqc4dv604qd2x23w,49,nft1jmapaareeys282x99rqlnxtf3t5utnery7mpemaydgpxmwc0zryszweuvn
+8,1,"Chunk #2853",xch1ahs390wvsll2hp6g2fyztzu3ju270z32a4enakd5w7kdddc7f0tq7f70g8,86,nft17lfczahqst8ygvdyts2qcq7fufutad3dngrl3vl8uhu4sfuxww7snwm9js
+9,1,"Chunk #2520",xch1ukjgn7n9yg25e92mgp777tha83vhstmuqeflylcv3efzt7e925rqsg6vyz,60,nft1q7f02qyfrd33c6pzul2gx7ahzhvygdrgz2e9pymlm06yd3g4ln6sdzke98
+10,9,"Chunk #3098",xch1xyfetpj74rz3pq69vsc5wjd9t3jzgpmzmlvtg7x87kvnq57s547sjpdwm9,119,nft1aezfas08wshmfhla0m28f0fqagjwv726d5c9hy5kllj68h69x37sulc98f
+11,6,"Chunk #3448",xch16tphrc2qsp55ggg2zqecej0a2fl7aldut5h85zptjhz39sn8ua4sgq5a8r,70,nft1ccyrm7vw48hwmfvz2s45l2ydfx9y5uvx49ptw2zfvynuc0ekkdzq59cfa9
+----------------------------------------------------------------
