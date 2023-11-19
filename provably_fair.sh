@@ -247,9 +247,9 @@ montage  *.png -geometry +5+5 $block/$block.png
 rm *.png
 
 echo "----------------------------------------------------------------" | tee -a $block/$block.log
-git add .
+#git add .
 echo "git commit $block"
-git commit -m "$block commit"
+#git commit -m "$block commit"
 echo "git push $block"
-git push origin main
+#git push origin main
 echo "----------------------------------------------------------------" | tee -a $block/$block.log
